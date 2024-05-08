@@ -1,0 +1,12 @@
+
+.food-items-container h1{
+    color: #550274;
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+.food-items-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 30px;
+    row-gap: 50px;
+}
